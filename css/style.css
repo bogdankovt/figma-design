@@ -10,6 +10,7 @@ html, body {
 p, h1, h2, h3, h4, h5 {
     margin:0;
     padding: 0;
+    color: #333333;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 39px 0 41px 0px;
+    padding: 36px 0 50px 0px;
 }
 
 header * {
@@ -31,29 +32,34 @@ header * {
     color:white;
 }
 
-header > h5 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 20px;
-}
-
-
-header > a {
-    font-size: 13px;
-    font-weight: 400;
-    margin-top:41px;
-    line-height: 13px;
-}
-
 .about {
-    padding: 0px 29px 20px 34px;
+    padding: 0px 29px 24px 34px;
 }
-.about > h5 {
-    padding:25px 0;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #333333;
-    text-align: center;
+.skills {
+    padding: 0px 34px 25px 34px;
+    background-color: #FFFAF2;
+}
+.skills-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.skill-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    flex-basis: 100px;
+}
+
+.skill-info {
+    font-size: 12px;
+    line-height: 25px;
+    position: relative;
+    float:right
+}
